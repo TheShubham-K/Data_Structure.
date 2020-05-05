@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1573112391 source:e:\working area\expression_tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+

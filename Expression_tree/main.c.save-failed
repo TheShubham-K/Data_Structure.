@@ -1,0 +1,115 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <math.h>
+#define max 100
+struct node
+{
+    int info;
+    struct node *llink;
+    struct node *rlink;
+};
+
+typedef struct node *NODE;
+
+NODE getnode()
+{
+    NODE X;
+    X=(NODE)malloc(sizeof(struct node));
+    if(X==NULL)
+    {
+        printf("Memory not Allocated!!\n");
+    }
+    return(X);
+}
+
+NODE create_tree(char postfix[])
+{
+    NODE temp, st[max];
+    int i, k;
+    char symbol;
+    for(i=k=0;(symbol=postfix[i])!= '\0';i++)
+    {
+        symbol=postfix[i];
+        temp=getnode();
+        temp->info=symbol;
+        temp->llink=temp->rlink=NULL;
+        if(isalnum(symbol))
+            st[k++]=temp;
+        else
+        {
+            temp->rlink=st[--k];
+            temp->llink=st[--k];
+            st[k++]=temp;
+        }
+    }
+    return(st[--k]);
+}
+
+float evaluate(NODE root)
+{
+    switch(root->info)
+    {
+    case '+':
+        return(evaluate(root->llink)+evaluate(root->rlink));
+        break;
+    case '-':
+        return(evaluate(root->llink)-evaluate(root->rlink));
+        break;
+    case '*':
+        return(evaluate(root->llink)*evaluate(root->rlink));
+        break;
+    case '/':
+        return(evaluate(root->llink)/evaluate(root->rlink));
+    case '$':
+    case '^':
+        return(pow(evaluate(root->llink),evaluate(root->rlink)));
+        break;
+    default:
+        return(root->info - '0');
+    }
+}
+
+void inorder(NODE root)
+{
+    if(root==NULL)
+    {
+        return;
+    }
+    inorder(root->llink);
+    printf("%d\t", root->info);
+    inorder(root->rlink);
+    return;
+}
+
+int main()
+{
+    char postfix[max];
+    NODE root=NULL;
+    int ch;
+    for(;;)
+    {
+        printf("Enter your choice\n1.Insert\n2.Inorder\n3.Compute\n4.Exit\n");
+        scanf("%d", &ch);
+        switch(ch)
+        {
+        case 1:
+            printf("Enter postfix expression:\n");
+            scanf("%s",postfix);
+            root=create_tree(postfix);
+            break;
+        case 2:
+            inorder(root);
+            break;
+        case 3:
+            evaluate(root);
+            break;
+        case 4:
+            exit(0);
+            break;
+        default:
+            printf("Invalid input\n");
+        }
+    }
+    return 0;
+}
