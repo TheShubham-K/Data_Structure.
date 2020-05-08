@@ -10,7 +10,9 @@
 - Topological Sorting Using Source removal Technique.
 - Type casting Explicitly C++ Program.
 - Employee C++ Program.
-
+- Sample Programs writen in C Language.
+- Implicit Typecasting C Program.
+- Stack Using Structure C Program.
 
 # Contact.
 The best way to get in touch with me is [on Instagram](https://www.instagram.com/subham.kumar032/). 
