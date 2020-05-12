@@ -2,7 +2,7 @@
 
 - Expression Tree C Program.
 - Bank Account C++ Program.
-- Queue Using Arrsy C Program. 
+- Queue Using Array C Program. 
 - Horspool String Matching C Program.
 - PrepBytes C Program.
 - Virtual Class C++ Program.
@@ -17,7 +17,19 @@
 - Sample Program.
 - Sample Program 2.
 - Stack Program.
-- 
+- Coding Club Problem
+- Mock 2
+- Mock 3
+- Mock 4
+- Mock 6
+- Mock 7
+- Mock Preparation.
+- Adding Two Numbers In c++.
+- Queue using Structure.
+- Singlly Linked List For Insertion of Item at aSpecific Position.
+- Stack Using Linked List.
+- Sum Of Digit In a given Number.
+- Warshall Algorithm.
 
 
 # Contact.
