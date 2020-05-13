@@ -30,7 +30,19 @@
 - Stack Using Linked List.
 - Sum Of Digit In a given Number.
 - Warshall Algorithm.
-
+- Circular Queue Using Structure.
+- Circular Doubly Linked List.
+- Dijkstras Algorithm.
+- KnapSack Dynamic Program.
+- KnapSack Naive Program.
+- Priority Queue.
+- Time Program.
+- Insert Right Delete Front.
+- Hybrid Inheritance.
+- Insert Rear.
+- Practice Program.
+- Recursion.
+- 
 
 # Contact.
 The best way to get in touch with me is [on Instagram](https://www.instagram.com/subham.kumar032/). 
