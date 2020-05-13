@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1588613858 source:e:\working area\4th sem\daa\dijkstras_algorithm\main.c
+	<stdio.h>
+	<stdlib.h>
+
