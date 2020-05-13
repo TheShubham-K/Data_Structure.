@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1570102707 source:e:\working area\prat1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+
