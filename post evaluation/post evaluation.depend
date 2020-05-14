@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1566318837 source:e:\working area\post evaluation\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<math.h>
+
