@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1579691899 source:e:\working area\4th sem\daa\factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
