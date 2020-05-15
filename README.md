@@ -20,11 +20,7 @@
 - Sample Program 2.
 - Stack Program.
 - Coding Club Problem
-- Mock 2
-- Mock 3
-- Mock 4
-- Mock 6
-- Mock 7
+- Mock 2, 3, 4, 6, 7
 - Mock Preparation.
 - Adding Two Numbers In c++.
 - Queue using Structure.
@@ -56,6 +52,18 @@
 - Palindrome Using Stack.
 - Post Evaluation.
 - KnapSack Dynamic Programming Using Python.
+- End semester Program.
+- Floyds Algorithm.
+- Heap Sort.
+- Heap Sort Program.
+- Insertion Sort Program.
+- Kruskal Algorithm.
+- Merge Sort Program.
+- Prism's Algorithm.
+- Quick Sort.
+- Basic Calculator Program in C++.
+- Infix To PostFix.
+- Lexico-Graphical Problem.
 - 
 
 # Contact.
