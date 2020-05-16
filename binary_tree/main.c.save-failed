@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <malloc.h>
+#include <math.h>
+
+struct node
+{
+    int info;
+    struct node *llink;
+    struct node *rlink;
+};
+typedef struct node *NODE;
+
+NODE getnode()
+{
+    NODE X;
+    X=(NODE)malloc(sizeof(struct node));
+    if(X==NULL)
+    {
+        printf("Memory not Allocated\n");
+    }
+    return(X);
+}
+NODE freenode(NODE *X)
+{
+    free(X);
+}
+NODE insert(NODE root, int item)
+{
+    NODE p, cur, prev;
+    char d[10];
+    int i;
+    p=getnode();
+    p->info=item;
+    p->llink=p->rlink=NULL;
+    if(root==NULL)
+    {
+        return p;
+    }
+    printf("Give the Direction Where you wnat to insert\n");
+    scanf("%s", d);
+    toupper(d);
+    prev= NULL;
+    cur=root;
+    for(i=0;i<strlen(p);i++)
+    {
+        if(cur==NULL)
+            break;
+        prev=cur;
+        if(d[i]=='L')
+            cur=cur->rlink;
+        else
+            cur=cur->llink;
+    }
+    if(cur !=NULL || i !=strlen(d))
+    {
+        printf("Insertion is not possible!!\n");
+        free(p);
+        return root;
+    }
+    if(d[i-1]=='L')
+        prev->llink=p;
+    else
+        prev->rlink=p;
+    return root;
+}
+
+void inorder
+int main()
+{
+    printf("Hello world!\n");
+    return 0;
+}
