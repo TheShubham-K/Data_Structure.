@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1579336490 source:e:\working area\4th sem\daa\bruteforce\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
