@@ -20,7 +20,7 @@
 - Sample Program 2.
 - Stack Program.
 - Coding Club Problem
-- Mock 2, 3, 4, 6, 7
+- Mock 2, 3, 4, 6, 7.
 - Mock Preparation.
 - Adding Two Numbers In c++.
 - Queue using Structure.
@@ -64,6 +64,16 @@
 - Basic Calculator Program in C++.
 - Infix To PostFix.
 - Lexico-Graphical Problem.
+- Shape Program in C++ .
+- Singly Linked List Using Header.
+- Tower Of Hanoi.
+- Breath For Search.
+- Binary Search Tree.
+- Binary Tree.
+- Binomial Coefficient.
+- Brute Force.
+- Bubble Sort Program.
+- Bub Sort Program.
 - 
 
 # Contact.
