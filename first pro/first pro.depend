@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1560349862 source:e:\working area\first pro\main.c
+	<stdio.h>
+	<conio.h>
+
+1560350611 source:e:\working area\first pro\star1.c
+	<stdio.h>
+	<conio.h>
+
